@@ -322,6 +322,16 @@ export function GuestList() {
           >
             RSVP deadline: December 20, 2025
           </p>
+          <p
+            className="text-xs sm:text-sm md:text-base font-[family-name:var(--font-crimson)] text-white/90 font-medium max-w-xl mx-auto leading-relaxed tracking-wide px-4"
+            style={{
+              textShadow:
+                "0 0 15px rgba(0, 0, 0, 0.8), 0 0 30px rgba(0, 0, 0, 0.6), 0 2px 4px rgba(0, 0, 0, 0.5)",
+            }}
+          >
+            Jen Bartolome 09175008790 | 
+            Jay-R Valenzuela 09163632002
+          </p>
         </div>
       </div>
 
