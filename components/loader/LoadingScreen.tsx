@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 interface LoadingScreenProps {
   onComplete: () => void;
@@ -24,7 +25,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
       }`}
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-[#909E8D]" />
+      <div className="absolute inset-0 bg-[#EFCA93]" />
 
       <div className="relative flex flex-col items-center justify-center">
         <div className="relative flex items-center justify-center">
@@ -39,18 +40,21 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
 
           {/* Monogram */}
           <div className="flex flex-col items-center justify-center z-10">
-            <span
-            className="text-3xl tracking-[0.35em] text-white drop-shadow-md"
-              style={{ fontFamily: '"Cinzel", serif', fontWeight: 700 }}
-            >
-              CK
-            </span>
+            <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32">
+              <Image
+                src="/monogram/monogram-new.png"
+                alt="Mark Joey & Diana Grace Monogram"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
           </div>
         </div>
 
         <div className="mt-8 text-center">
           <p
-            className="text-xs uppercase tracking-[0.3em] text-white/80 animate-pulse drop-shadow"
+            className="text-xs uppercase tracking-[0.3em] text-[#800A06] animate-pulse drop-shadow"
             style={{ fontFamily: '"Cinzel", serif', fontWeight: 700 }}
           >
             Loading Invitation

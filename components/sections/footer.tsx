@@ -102,13 +102,10 @@ export function Footer() {
               <div className="flex justify-center mb-4 sm:mb-6">
                 <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32">
                   <Image
-                    src="/monogram/monogram.png"
+                    src="/monogram/monogram-new.png"
                     alt="Mark Joey & Diana Grace Monogram"
                     fill
                     className="object-contain drop-shadow-lg"
-                    style={{ 
-                      filter: 'brightness(0) saturate(100%) sepia(100%) saturate(5000%) hue-rotate(0deg) brightness(0.5) contrast(1.2)'
-                    }}
                     priority
                   />
                 </div>
@@ -193,13 +190,10 @@ export function Footer() {
               <div className="flex items-center gap-3 mb-6">
                 <div className="relative w-12 h-12 sm:w-14 sm:h-14 flex-shrink-0">
                   <Image
-                    src="/monogram/monogram.png"
+                    src="/monogram/monogram-new.png"
                     alt="Mark Joey & Diana Grace Monogram"
                     fill
                     className="object-contain"
-                    style={{ 
-                      filter: 'brightness(0) saturate(100%) sepia(100%) saturate(5000%) hue-rotate(0deg) brightness(0.5) contrast(1.2)'
-                    }}
                     priority
                   />
                 </div>

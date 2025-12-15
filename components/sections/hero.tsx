@@ -57,13 +57,10 @@ export function Hero() {
           <div className="flex justify-center mb-2 sm:mb-4">
             <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-48 md:h-48 lg:w-56 lg:h-56">
               <Image
-                src="/monogram/monogram.png"
+                src="/monogram/monogram-new.png"
                 alt="Mark Joey & Diana Grace Monogram"
                 fill
                 className="object-contain"
-                style={{ 
-                  filter: 'brightness(0) saturate(100%) sepia(100%) saturate(5000%) hue-rotate(0deg) brightness(0.5) contrast(1.2)'
-                }}
                 priority
               />
             </div>

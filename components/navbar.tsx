@@ -99,13 +99,10 @@ export function Navbar() {
               {/* Monogram Image */}
               <div className="relative w-9 h-9 sm:w-10 sm:h-10 flex-shrink-0 group-hover:scale-105 transition-all duration-300">
                 <Image
-                  src="/monogram/monogram.png"
+                  src="/monogram/monogram-new.png"
                   alt="Mark Joey & Diana Grace Monogram"
                   fill
                   className="object-contain"
-                  style={{ 
-                    filter: 'brightness(0) saturate(100%) invert(8%) sepia(94%) saturate(1352%) hue-rotate(120deg) brightness(95%) contrast(85%)'
-                  }}
                   priority
                 />
               </div>
